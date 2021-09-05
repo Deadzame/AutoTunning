@@ -306,9 +306,9 @@ namespace NeptuneEVO.Businesses
             catch (Exception e) { Log.Write("buyTuning: " + e.Message, nLog.Type.Error); }
         }
 
-        public static Dictionary<string, Dictionary<int, List<Tuple<int, string, int>>>> TuningS = new Dictionary<string, Dictionary<int, List<Tuple<int, string, int>>>>()
+        public static Dictionary<string, Dictionary<int, List<Tuple<int, string, int>>>> TuningS = new Dictionary<string, Dictionary<int, List<Tuple<int, string, int>>>>()//Пропись Тюнинга
         {
-                                                           { "g65", new Dictionary<int, List<Tuple<int, string, int>>>() {}},
+                                                           { "g65", new Dictionary<int, List<Tuple<int, string, int>>>() {}},//пример для прописи
         };
 
         public static Dictionary<int, int> ColorTypes = new Dictionary<int, int> {
